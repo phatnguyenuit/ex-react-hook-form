@@ -17,9 +17,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "rootDir": "./src",
+    "baseUrl": "./src",
   },
   "include": [
     "src"
   ]
 }
+
+// https://medium.com/@cosmvs/set-up-tslint-and-prettier-in-vs-code-for-react-app-with-typescript-5b7f5895ce37
